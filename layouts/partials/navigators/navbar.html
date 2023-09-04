@@ -100,7 +100,8 @@
             </li>
           {{ end }}
         {{- end }}
-        {{ $shouldAddSeparator:= partial "helpers/add-navbar-separator.html" . }}
+<!--         {{ $shouldAddSeparator:= partial "helpers/add-navbar-separator.html" . }} -->
+        {{ $shouldAddSeparator:= false}}
         {{ if $shouldAddSeparator }}
           <div class="dropdown-divider" id="top-navbar-divider"></div>
         {{ end }}

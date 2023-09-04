@@ -56,7 +56,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/tianxiao18/toha
   # Default branch of your Git repo
   gitBranch: main
 
@@ -69,7 +69,7 @@ params:
 
     # Enable dark theme
     darkMode:
-      enable: true
+      enable: false
       services:
         darkreader:
           defaultColorScheme: system # options are 'system', 'dark', 'light'
