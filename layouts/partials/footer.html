@@ -32,11 +32,11 @@
     {{ $customMenus = (index site.Data site.Language.Lang).site.customMenus }}
   {{ end }}
 
-  {{ $copyrightNotice := now.Format "2006" | printf "© %s Copyright."}}
+  {{ $copyrightNotice := "2023" | printf "© %s Copyright."}}
   {{ if (index site.Data site.Language.Lang).site }}
     {{ $siteConfig := (index site.Data site.Language.Lang).site }}
     {{ if $siteConfig.copyright }}
-      {{ $copyrightNotice = $siteConfig.copyright }}
+      {{ $copyrightNotice = $copyrightNotice }}
     {{ end }}
   {{ end }}
 
