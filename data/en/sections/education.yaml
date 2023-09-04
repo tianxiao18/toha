@@ -30,7 +30,7 @@ degrees:
   timeframe: 2021-2023
   institution:
     name: Columbia University
-    url: "#"
+    url: "https://www.columbia.edu/"
   grade: #(optional)
     scale: CGPA
     achieved: 3.9
@@ -68,7 +68,7 @@ degrees:
   timeframe: 2018-2021
   institution:
     name: Bard College at Simon's Rock
-    url: "#"
+    url: "https://simons-rock.edu/"
   grade: #(optional)
     scale: CGPA
     achieved: 4
