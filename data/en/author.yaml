@@ -1,0 +1,19 @@
+# some information about you
+name: "Tianxiao He"
+nickname: "Tianxiao"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/tianxiao.jpeg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "th3129@nyu.edu"
+  phone: "5184289860"
+  github: tianxiaohe
+  linkedin: tianxiao-he-bba619227
+
+# some summary about what you do
+summary:
+  - I am a CS PhD student
+  - I am passionate about how brain works
+  - I develop ML tools to analyze neural data
+  - I love to work with some fun projects

@@ -1,0 +1,83 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Ph.D in Computer Science
+  icon: fa-microscope
+  timeframe: 2023-now
+  institution:
+    name: New York University
+    url: "https://engineering.nyu.edu/"
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: N/
+  #   outOf: A
+  publications: #(optional)
+  - title: work in neuroinformatics lab with Prof. Erdem Varol
+    # url: "#"
+  - title: attend 11th Computational & Cognitive Neuroscience (CCN) Summer Program at Cold Spring Harbor Asia
+    # url: "#"
+- name: B.S. in Computer Science & Engineering
+  icon: fa-graduation-cap
+  timeframe: 2021-2023
+  institution:
+    name: Columbia University
+    url: "#"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.9
+    outOf: 4 (Dean's list)
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Artificial Intelligence
+      achieved: 4
+      outOf: 4
+    - name: Machine Learning
+      achieved: 3.75
+      outOf: 4
+    - name: Theoretical Neuroscience
+      achieved: 4
+      outOf: 4
+    - name: Computer Vision
+      achieved: 4
+      outOf: 4
+  publications: #(optional)
+  - title: worked as research assistant at Paninski lab at Columbia Zuckerman Institute from 2021-2023
+    # url: "#"
+  - title: presented a poster at Computational and Systems Neuroscience (COSYNE) conference 2023
+  - title: led separate teams to work on projects on robotic learning, and hierarchical prediction with out of distribution problem
+    # url: "#"
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+- name: B.A. in Computer Science & Engineering 
+  icon: fa-university
+  timeframe: 2018-2021
+  institution:
+    name: Bard College at Simon's Rock
+    url: "#"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 4
+    outOf: 4 (Dean's list)
+  publications: #(optional)
+  - title: worked as a teaching assistant for Python Programming, Algorithms & Data Structures
+  - title: developed a carpooling web application for college students and implemented destination matching algorithms
+  - title: participated in Hackathon and won the most technical award with a second-hand book exchange web application
+  - title: developed an adventure game with Davinci Engine in Gamejam hosted by Lilith Studio (programming + plot design)
+    # participated in Gamajam hosted by Lilith Studio, responsible for programming and plot design
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.

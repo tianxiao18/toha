@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Research Experience
+  id: experiences
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Paninski Lab @ Columbia University
+    url: 
+    location: New York
+    # company overview
+    overview: Most decoding methods require spike sorting yet current spike sorting algorithms might be inaccurate and costly. So we proposed a spike sorting free method for decoding neural recordings.
+    # for decoding electrophysiological data from high density Neuropixel probes
+  positions:
+  - designation: Density-based neural decoding for Neuropixel recordings
+    start: Jun 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Modeled the uncertainty of spike assignment using dynamical MoG for spike features distribution
+    - Applied variational inference to fit the resulting model and to perform decoding
+    - Benchmarked using recordings from various animals and probes shows better performance
+    - Drafted and presented the poster at COSYNE 2023 conference
+- company:
+    name: Paninski Lab @ Columbia University
+    # url: "https://www.example.com"
+    location: New York
+    overview: Animal behaviors are often studied with low dimensional task variables, but advances in computer vision enable us to study animal behavior with high-dimensional videos and apply it in decoding
+  positions:
+  - designation: Analyze nonlinear embeddings of animal behavioral videos for decoding
+    start: Jan 2022
+    end: May 2022
+    responsibilities:
+    - Extracted nonlinear behavioral embeddings from animal videos using variational autoencoder
+    - Decoded behavioral embeddings from electrophysiological recording with temporal convolution
+    - Assessed decoder performance by comparing true behavior frames to reconstructed frames from predicted embeddings
+
+- company:
+    name: Paninski Lab @ Columbia University
+    # url: "https://www.example.com"
+    location: New York
+    overview: Recent optogenetic advances allow us to stimulate multiple cells in quick succession. However, it is challenging to distinguish the postsynaptic current given overlapping trials from multiple cells. 
+  positions:
+  - designation: Neural Network denoising for optogentically invoked signals
+    start: Sep 2021
+    end: Jan 2022
+    responsibilities:
+    - Developed a NN temporal denoiser to demix current waveforms with spatio-temporal overlap
+    - Ran a simulation study to test the model robustness to noise and sampling rate by synthesizing current traces under a variety of signal-to-noise regimes
+    - Applied this denoising model in downstream tasks of mapping synaptic connections
