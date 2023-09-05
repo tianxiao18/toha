@@ -21,11 +21,12 @@ degrees:
   #   achieved: N/
   #   outOf: A
   publications: #(optional)
-  - title: work in neuroinformatics lab with Prof. Erdem Varol
+  - title: work in Prof. Erdem Varol's lab at Visualization and Data Analytics Research (VIDA) Center 
+  - title: received the School of Engineering (SoE) Fellowship from Department of Computer Science and Engineering
     # url: "#"
   - title: attend 11th Computational & Cognitive Neuroscience (CCN) Summer Program at Cold Spring Harbor Asia
     # url: "#"
-- name: B.S. in Computer Science & Engineering
+- name: B.S. in Computer Science
   icon: fa-graduation-cap
   timeframe: 2021-2023
   institution:
@@ -63,7 +64,7 @@ degrees:
   # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
   # - Duis sed massa feugiat, ornare justo et, aliquam est.
   # - Pellentesque ut fringilla magna.
-- name: B.A. in Computer Science & Engineering 
+- name: B.A. in Computer Science 
   icon: fa-university
   timeframe: 2018-2021
   institution:
