@@ -1,14 +1,14 @@
-# # section information
-# section:
-#   name: Publications
-#   id: publications
-#   enable: true
-#   weight: 6
-#   showOnNavbar: true
-#   # Can optionally hide the title in sections
-#   # hideTitle: true
+# section information
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
 
-# # filter buttons
+# filter buttons
 # buttons:
 # - name: All
 #   filter: "all"
@@ -19,64 +19,53 @@
 # - name: Security
 #   filter: "security"
 
-# # your publications
-# publications:
-# - title: An Example Paper on Machine Learning
+# your publications
+publications:
+- title: "Bypassing spike sorting: Density-based decoding using spike localization from dense multielectrode probes"
+  publishedIn:
+    name: NeurIPS Spotlight, 2023
+    date: 21 Sep 2023
+    url: https://proceedings.neurips.cc/paper_files/paper/2023/file/f499387f191d6be56e68966181095878-Paper-Conference.pdf
+  authors:
+  - name: Yizi Zhang
+  - name: Tianxiao He
+  - name: Julien Boussard
+  - name: Charles Windolf
+  - name: Olivier Winter
+  - name: Eric Trautmann
+  - name: Noam Roth
+  - name: Hailey Barrell
+  - name: Mark Churchland
+  - name: Nicholas A Steinmetz
+  - name: Erdem Varol
+  - name: Cole Hurwitz
+  - name: Liam Paninski
+  paper:
+    summary: "Neural decoding for brain-computer interfaces (BCI) traditionally relies on spike sorting, which often suffers from inaccuracies and loss of information. Leveraging advances in high-density probes and computational methods, 
+      we propose a spike sorting-free decoding method using a mixture of Gaussians to model the distribution of spike features, encoding uncertainty without clustering spikes. We allow the mixing proportion of the MoG
+      to change over time in response to the behavior and develop variational inference
+      methods to fit the resulting model and to perform decoding. We benchmark our
+      method with an extensive suite of recordings from different animals and probe
+      geometries, demonstrating that our proposed decoder can consistently outperform
+      current methods based on thresholding (i.e. multi-unit activity) and spike sorting."
+    url: https://proceedings.neurips.cc/paper_files/paper/2023/file/f499387f191d6be56e68966181095878-Paper-Conference.pdf
+  categories: ["machinelearning","image-processing"]
+  tags: ["Neural Decoding", "Electrophysiology", "Signal Processing"]
+# - title: "Blind in vivo localization of microelectrode arrays in the mouse hippocampus"
 #   publishedIn:
-#     name: 2020 IEEE Region Symposium (TENSYMP)
-#     date: 7 June 2020
-#     url: https://example.com
+#     name: SFN, 2024
+#     date: 1 July 2024
+#     url: example.com
 #   authors:
-#   - name: Dr. Madman
-#     url: https://example.com
-#   - name: Dr. Lessmad
-#     url: https://example.com
-#   - name: Dr. Moremad
-#     url: https://example.com
-#   - name: Dr. Goodman
-#     url: https://example.com
+#   - name: Tianxiao He
+#   - name: Anna Maslarova
+#   - name: Mihály Vöröslakos
+#   - name: Chenyi Li
+#   - name: Yurong Liu
+#   - name: György Buzsáki
+#   - name: Erdem Varol
 #   paper:
-#     summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-#     url: https://example.com
+#     summary: "In electrophysiology, precise in vivo localization of recording sites in deep brain structures is crucial for consistent targeting in multi-day recordings and accurate deep brain stimulation. However, current approaches present their own challenges: brain atlas-guided probe insertion may be imprecise due to anatomical variability, CT or MRI scan based localization may lack the spatial resolution for subregion structures, and post hoc histology misses longitudinal information in chronic recordings. Focusing on mouse recordings, we present a learning-based automatic localizer to identify hippocampus sublayers from high-density extracellular recordings. "
+#     url: https://proceedings.neurips.cc/paper_files/paper/2023/file/f499387f191d6be56e68966181095878-Paper-Conference.pdf
 #   categories: ["machinelearning","image-processing"]
-#   tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
-
-# - title: An Sample Paper on Image Processing
-#   publishedIn:
-#     name: 2020 IEEE Region Symposium (TENSYMP)
-#     date: 7 June 2020
-#     url: https://example.com
-#   authors:
-#   - name: Dr. Madman
-#     url: https://example.com
-#   - name: Dr. Lessmad
-#     url: https://example.com
-#   - name: Dr. Moremad
-#     url: https://example.com
-#   - name: Dr. Goodman
-#     url: https://example.com
-#   paper:
-#     summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-#     url: https://example.com
-#   categories: ["image-processing"]
-#   tags: ["Image Processing", "Computer Vision"]
-
-# - title: An Example Paper on Security
-#   publishedIn:
-#     name: 2020 IEEE Region Symposium (TENSYMP)
-#     date: 7 June 2020
-#     url: https://example.com
-#   authors:
-#   - name: Dr. Madman
-#     url: https://example.com
-#   - name: Dr. Lessmad
-#     url: https://example.com
-#   - name: Dr. Moremad
-#     url: https://example.com
-#   - name: Dr. Goodman
-#     url: https://example.com
-#   paper:
-#     summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-#     url: https://example.com
-#   categories: ["security"]
-#   tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+#   tags: ["Neural Decoding", "Electrophysiology", "Signal Processing"]

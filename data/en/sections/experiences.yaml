@@ -21,7 +21,7 @@ experiences:
   - designation: Density-based neural decoding for Neuropixel recordings
     start: Jun 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Jun 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Modeled the uncertainty of spike assignment using dynamical MoG for spike features distribution
